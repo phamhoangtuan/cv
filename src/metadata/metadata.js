@@ -1,14 +1,15 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
-  baseUrl: 'https://sneas.github.io/cv-project',
+  name: 'Pham Hoang Tuan',
+  title: 'Senior Data Engineer',
+  baseUrl: 'https://phamhoangtuan.github.io/cv',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
+    'Residence': 'Singapore',
+    'LinkedIn': `<a href="https://www.linkedin.com/in/phamhoangtuan">
+                  <span class="print">https://www.linkedin.com/in/phamhoangtuan</span>
+                  <span class="screen">https://www.linkedin.com/in/phamhoangtuan</span>
                 </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'Email': '<a href="mailto:phamhoangtuan.it@gmail.com">phamhoangtuan.it@gmail.com</a>',
+    'Languages': 'Vietnamese, English'
   },
   skills: [
     ['Comedy', '++++'],
