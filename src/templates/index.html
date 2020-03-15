@@ -50,6 +50,12 @@
                 <span class="badge badge-primary">{{ this }}</span>
                 {{/each}}
             </p>
+
+            {{#if review}}
+            <p>
+                Review: <a href="{{ ../baseUrl }}/{{ review.file }}">{{ review.author }}</a>
+            </p>
+            {{/if}}
         </div>
     </div>
     {{/each}}
