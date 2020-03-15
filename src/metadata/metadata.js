@@ -16,7 +16,10 @@ module.exports = {
       period: 'Feb 2019 - Present',
       skills: ['Python', 'Java', 'Talend', 'Hadoop', 'Hive', 'Spark', 'HBase'],
       contents: `
-- 
+- Upgraded data infrastucture to newer version in production with no downtime in 3 months.
+- Took full ownership of a new system to collect, transform and feed useful information to a data science model, which can predict when the electric meter need to be replaced and reduce false alarm for operation team. As a result, time to train model is decreased by 30% and the accuracy is increased by 45%.
+- Created coding standards for SQL that helps team members easier to read and review. Moreover, a platform to manage SQL effectively is suggested as an effort to improve code performance and readability.
+- Developed python scripts to monitor data automatically and reduce MTTR (Mean Time To Repair) of data lake.
       `
     },
     {
