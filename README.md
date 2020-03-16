@@ -4,7 +4,7 @@ You are an amazing developer. Keep your CV on GitHub. Host it on GitHub pages. H
 
 Demo: [http://sneas.github.io/cv-project](http://sneas.github.io/cv-project).
 
-Real world example: [http://sneas.github.io/cv](http://sneas.github.io/cv).
+Real world example: [https://phamhoangtuan.github.io/cv](https://phamhoangtuan.github.io/cv).
 
 ## Motivation
 
@@ -13,12 +13,6 @@ GitHub Pages is probably the best place developer could store it's CV. Giving a 
 The idea behind **The Curriculum Vitae Project** is to provide anyone a quick solution for managing CV (both HTML and PDF versions) with GitHub and automate deployments with GitHub Actions.
 
 ## Installation
-
-### One step way (if you don't mind forking)
-
-1. Fork this repo
-
-### Multi step way (for those who who doesn't want to fork)
 
 1. Create and clone a new repo
 1. `npm install -g git-cp`
