@@ -64,5 +64,11 @@ module.exports = {
 - Improved web portal legacy code with Javascipt best practices to increase API response time by 50%.
       `
     }
+  ],
+  certificates: [
+    {
+      name: 'Professional Scrum Developer I - May 2020',
+      content: 'PSDI.pdf'
+    }
   ]
 };
