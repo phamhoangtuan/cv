@@ -13,13 +13,14 @@ module.exports = {
       company: 'SP Digital',
       location: 'Singapore',
       title: 'Senior Data Engineer',
-      period: 'Feb 2019 - Present',
+      period: 'Feb 2019 - Feb 2021',
       skills: ['Python', 'Java', 'Talend', 'Hadoop', 'Hive', 'Spark', 'HBase'],
       contents: `
 - Upgraded data infrastructure to newer version in production with no downtime in 3 months.
 - Took full ownership of a new system to collect, transform and feed useful information to a data science model, which can predict when the electric meter need to be replaced and reduce false alarm for operation team. As a result, time to train model is decreased by 30% and the accuracy is increased by 45%.
 - Created coding standards for SQL that helps team members easier to read and review. Moreover, a platform to manage SQL effectively is suggested as an effort to improve code performance and readability.
 - Developed python scripts to monitor data automatically and reduce MTTR (Mean Time To Repair) of data lake.
+- Developed hourly jobs in Kubernetes to ingest electric price data as an input for the next 48-hours price prediction model with more than 80% accuracy.
       `
     },
     {
