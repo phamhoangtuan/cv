@@ -3,18 +3,29 @@ module.exports = {
   title: 'Senior Data Engineer',
   baseUrl: 'https://phamhoangtuan.github.io/cv',
   facts: {
-    'Residence': 'Singapore',
+    'Residence': 'Vietnam',
     'LinkedIn': `<a href="https://www.linkedin.com/in/phamhoangtuan">https://www.linkedin.com/in/phamhoangtuan</span></a>`,
     'Email': '<a href="mailto:phamhoangtuan.it@gmail.com">phamhoangtuan.it@gmail.com</a>',
     'Languages': 'Vietnamese, English'
   },
   experiences: [
     {
+      company: 'Aitomatic, Inc.',
+      location: 'Vietnam',
+      title: 'Data/Field Engineer',
+      period: 'Mar 2021 - Present',
+      skills: ['Python', 'AWS', 'Kubernetes'],
+      contents: `
+- Developed weekly/daily ETL pipeline to ingest raw coldchain data from customers, transform to parquet format and identify anomaly stores based on Data Scientist models with some positive feedbacks.
+- Developed AWS Lambda jobs based on docker images to replace old ETL pipeline and reduce 90% cost of running infrastructure in AWS.
+      `
+    },
+    {
       company: 'SP Digital',
       location: 'Singapore',
       title: 'Senior Data Engineer',
       period: 'Feb 2019 - Feb 2021',
-      skills: ['Python', 'Java', 'Talend', 'Hadoop', 'Hive', 'Spark', 'HBase'],
+      skills: ['Python', 'Java', 'Talend', 'Hadoop', 'Hive', 'Spark', 'HBase', 'Kubernetes'],
       contents: `
 - Upgraded data infrastructure to newer version in production with no downtime in 3 months.
 - Took full ownership of a new system to collect, transform and feed useful information to a data science model, which can predict when the electric meter need to be replaced and reduce false alarm for operation team. As a result, time to train model is decreased by 30% and the accuracy is increased by 45%.
@@ -53,17 +64,6 @@ module.exports = {
         file: 'review_crayon.png',
         author: 'Vivek Rensol, Product Director'
       }
-    },
-    {
-      company: 'FPT Software',
-      location: 'Ho Chi Minh City, Vietnam',
-      title: 'Software Engineer',
-      period: 'Jun 2013 - Dec 2014',
-      skills: ['C#', 'Javascript', 'Sencha Touch', 'Silverlight'],
-      contents: `
-- Developed a mobile app that useful for salemans to track their performance and reduce paper works. Customers' feedback is 80% positive in general.
-- Improved web portal legacy code with Javascipt best practices to increase API response time by 50%.
-      `
     }
   ],
   certificates: [
