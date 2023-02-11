@@ -12,10 +12,13 @@ module.exports = {
     {
       company: 'Aitomatic, Inc.',
       location: 'Vietnam',
-      title: 'Data/Field Engineer',
+      title: 'Product Engineer',
       period: 'Mar 2021 - Present',
-      skills: ['Python', 'AWS', 'Kubernetes'],
+      skills: ['Python', 'AWS', 'Kubernetes', 'Terraform', 'FastAPI'],
       contents: `
+- Used Terraform and Terragrunt to create a Kubernetes cluster that is scalable and cost saving by automatically use suitable spot instances based on cluster usage.
+- Developed service API with FastAPI to serve requests from UI to build ML models and infer data by that saved model.
+- Developed framework libraries with OOP philosophy to support product development.
 - Developed weekly/daily ETL pipeline to ingest raw coldchain data from customers, transform to parquet format and identify anomaly stores based on Data Scientist models with some positive feedbacks.
 - Developed AWS Lambda jobs based on docker images to replace old ETL pipeline and reduce 90% cost of running infrastructure in AWS.
       `
