@@ -6,7 +6,8 @@ module.exports = {
     'Residence': 'Vietnam',
     'LinkedIn': `<a href="https://www.linkedin.com/in/phamhoangtuan">https://www.linkedin.com/in/phamhoangtuan</span></a>`,
     'Email': '<a href="mailto:phamhoangtuan.it@gmail.com">phamhoangtuan.it@gmail.com</a>',
-    'Languages': 'Vietnamese, English'
+    'Languages': 'Vietnamese, English',
+    'Phone': '+84 909 770 891'
   },
   experiences: [
     {
@@ -14,8 +15,9 @@ module.exports = {
       location: 'Vietnam',
       title: 'Product Engineer',
       period: 'Mar 2021 - Present',
-      skills: ['Python', 'AWS', 'Kubernetes', 'Terraform', 'FastAPI'],
+      skills: ['Python', 'AWS', 'Kubernetes', 'Terraform', 'FastAPI', 'LLM'],
       contents: `
+- Developed product based on Large Language Model (LLM) to answer questions based on documents and many agents' reasoning process.
 - Used Terraform and Terragrunt to create a Kubernetes cluster that is scalable and cost saving by automatically use suitable spot instances based on cluster usage.
 - Developed service API with FastAPI to serve requests from UI to build ML models and infer data by that saved model.
 - Developed framework libraries with OOP philosophy to support product development.
