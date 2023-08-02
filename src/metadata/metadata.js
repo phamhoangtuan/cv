@@ -1,28 +1,27 @@
 module.exports = {
   name: 'Pham Hoang Tuan',
-  title: 'Senior Data Engineer',
+  title: 'Software Product Engineer',
   baseUrl: 'https://phamhoangtuan.github.io/cv',
   facts: {
     'Residence': 'Vietnam',
     'LinkedIn': `<a href="https://www.linkedin.com/in/phamhoangtuan">https://www.linkedin.com/in/phamhoangtuan</span></a>`,
     'Email': '<a href="mailto:phamhoangtuan.it@gmail.com">phamhoangtuan.it@gmail.com</a>',
     'Languages': 'Vietnamese, English',
-    'Phone': '+84 909 770 891'
+    'Phone': '(+84) 9 0977 0891'
   },
   experiences: [
     {
       company: 'Aitomatic, Inc.',
-      location: 'Vietnam',
-      title: 'Product Engineer',
+      location: 'Remote (Vietnam)',
+      title: 'Software Product Engineer',
       period: 'Mar 2021 - Present',
-      skills: ['Python', 'AWS', 'Kubernetes', 'Terraform', 'FastAPI', 'LLM'],
+      skills: ['Python', 'AWS', 'Kubernetes', 'Terraform', 'FastAPI', 'LLM', 'Github Actions'],
       contents: `
-- Developed product based on Large Language Model (LLM) to answer questions based on documents and many agents' reasoning process.
-- Used Terraform and Terragrunt to create a Kubernetes cluster that is scalable and cost saving by automatically use suitable spot instances based on cluster usage.
-- Developed service API with FastAPI to serve requests from UI to build ML models and infer data by that saved model.
-- Developed framework libraries with OOP philosophy to support product development.
-- Developed weekly/daily ETL pipeline to ingest raw coldchain data from customers, transform to parquet format and identify anomaly stores based on Data Scientist models with some positive feedbacks.
-- Developed AWS Lambda jobs based on docker images to replace old ETL pipeline and reduce 90% cost of running infrastructure in AWS.
+- Accomplished the development of a question-answering product by utilizing Large Language Models (LLM), leading to enhanced document interpretation and agent reasoning processes.
+- Achieved cost-effective scalability in Kubernetes clusters by employing Terraform and Terragrunt, leading to automatic utilization of the most suitable spot instances based on cluster usage.
+- Facilitated UI-based ML model building and data inference by developing a service API with FastAPI.
+- Supported product development by constructing framework libraries based on OOP philosophy.
+- Enhanced anomaly detection by developing a weekly/daily ETL pipeline that ingests and transforms coldchain data from customers into parquet format, leading to positive customer feedback.
       `
     },
     {
@@ -30,13 +29,13 @@ module.exports = {
       location: 'Singapore',
       title: 'Senior Data Engineer',
       period: 'Feb 2019 - Feb 2021',
-      skills: ['Python', 'Java', 'Talend', 'Hadoop', 'Hive', 'Spark', 'HBase', 'Kubernetes'],
+      skills: ['Python', 'Java', 'Talend', 'Hadoop', 'Spark', 'Azure', 'Kubernetes'],
       contents: `
-- Upgraded data infrastructure to newer version in production with no downtime in 3 months.
-- Took full ownership of a new system to collect, transform and feed useful information to a data science model, which can predict when the electric meter need to be replaced and reduce false alarm for operation team. As a result, time to train model is decreased by 30% and the accuracy is increased by 45%.
-- Created coding standards for SQL that helps team members easier to read and review. Moreover, a platform to manage SQL effectively is suggested as an effort to improve code performance and readability.
-- Developed python scripts to monitor data automatically and reduce MTTR (Mean Time To Repair) of data lake.
-- Developed hourly jobs in Kubernetes to ingest electric price data as an input for the next 48-hours price prediction model with more than 80% accuracy.
+- Successfully upgraded data infrastructure to a newer version without downtime by carefully managing and scheduling updates over 3 months.
+- Decreased model training time by 30% and increased accuracy by 45% by creating and managing a system that gathers, transforms, and feeds useful information to a predictive model for electric meter replacement.
+- Improved code performance and readability by establishing SQL coding standards and recommending an effective platform for SQL code management.
+- Reduced the Mean Time To Repair (MTTR) of data lakes by developing Python scripts for automatic data monitoring.
+- Contributed to the creation of an 80% accurate 48-hour price prediction model by developing hourly Kubernetes jobs that ingest electric price data.
       `
     },
     {
@@ -46,35 +45,14 @@ module.exports = {
       period: 'Sep 2016 - Jan 2019',
       skills: ['Python', 'AWS', 'Airflow', 'Postgres', 'Docker', 'Mesos', 'Looker'],
       contents: `
-- Developed a data pipeline to collect users' orders information, users' behaviors and other third parties data, process them and store in Datawarehouse. As a result, BI team always have clean and accuracy data to show in their reports.
-- Optimized queries to increase overall performance by 25% for product ranking and recommendation system.
-- Maitained legacy data infrastructure and ensure its high availability for other dependent data services.
+- Ensured clean and accurate reporting for the BI team by building a data pipeline that processes and stores user, order, behavior, and third-party data.
+- Increased overall performance by 25% for product ranking and recommendation systems by optimizing queries.
+- Ensured uninterrupted data services by maintaining the high availability of legacy data infrastructure.
       `,
       review: {
         file: 'review_honestbee.png',
         author: 'Nick Young, Head of Data'
       }
-    },
-    {
-      company: 'Crayon Data',
-      location: 'Singapore',
-      title: 'Data Scientist Intern',
-      period: 'Aug 2015 - Mar 2016',
-      skills: ['Python', 'Java', 'MySQL'],
-      contents: `
-- Developed web crawler with Python libraries to collect data automatically from e-commerce website. As a result, data team can have many raw data to process and train data models for product improvement.
-- Implemented a novel extractor to retrieve websites' information based on HTML structure in under 5 seconds per website.
-      `,
-      review: {
-        file: 'review_crayon.png',
-        author: 'Vivek Rensol, Product Director'
-      }
-    }
-  ],
-  certificates: [
-    {
-      name: 'Professional Scrum Developer I - May 2020',
-      content: 'PSDI.pdf'
     }
   ]
 };
