@@ -19,6 +19,7 @@ module.exports = {
       contents: `
 - Accomplished the development of a question-answering product by utilizing Large Language Models (LLM), leading to enhanced document interpretation and agent reasoning processes.
 - Achieved cost-effective scalability in Kubernetes clusters by employing Terraform and Terragrunt, leading to automatic utilization of the most suitable spot instances based on cluster usage.
+- Achieved robust and reliable CI/CD pipeline by utilizing Github Actions, leading to significantly improved uptime and deployment time.
 - Facilitated UI-based ML model building and data inference by developing a service API with FastAPI.
 - Supported product development by constructing framework libraries based on OOP philosophy.
 - Enhanced anomaly detection by developing a weekly/daily ETL pipeline that ingests and transforms coldchain data from customers into parquet format, leading to positive customer feedback.
